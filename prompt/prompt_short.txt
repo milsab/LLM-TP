@@ -1,0 +1,17 @@
+SHORT-TERM PROMPT
+task:
+  Analyze the provided JSON interactions (`title`, `description`, `timestamp`), where `timestamp` is in UNIX timestamp format. Focus on identifying trends from the user's most recent interactions.
+
+  Objectives:
+    1. Extract short-term preferences: Interests, genres, themes, directors, actors, or specific trends evident in the user's most recent interactions.
+    2. If the user has many interactions, prioritize analyzing the last 3 interactions based on timestamp of interactions. If fewer interactions are available, analyze all provided data.
+    3. Avoid assumptions not supported by the data. Instead, focus on explicit patterns or repeated themes in recent activity.
+
+  Output Format:
+    - Produce a concise, single-paragraph summary (300-500 characters) in natural language, highlighting the user's current short-term preferences in Movies.
+    - The output should be rich in semantic context, suitable for embedding generation using SBERT.
+
+example_output:
+  Recently, the user has shown a strong interest in fast-paced action and thriller movies, engaging with films that feature high-stakes plots, suspenseful narratives, and intense sequences. They seem particularly drawn to works featuring directors like Christopher Nolan and actors such as Keanu Reeves. Recent examples include "Inception" and "John Wick," indicating a preference for visually stunning, plot-driven experiences.
+
+

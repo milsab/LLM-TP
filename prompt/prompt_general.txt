@@ -1,0 +1,12 @@
+GENERAL PROMPT
+Task:
+Analyze the provided JSON interactions (`title`, `description`).
+
+Objective:
+Focus on identifying general preferences by examining genres, themes, categories, or attributes reflected in the user’s historical behavior.
+
+Output:
+Generate a concise, natural language user profile (300-500 characters) which is rich in semantic context and suitable for embedding generation using SBERT.
+
+Example Output:
+The user enjoys adventurous movies with elements of fantasy, sci-fi, or supernatural themes. They prefer imaginative storylines with complex characters and unique challenges."
