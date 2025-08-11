@@ -1,4 +1,4 @@
-# Using LLMs to Capture Users’ Temporal Context for Recommendation
+# LLM-TP: Using LLMs to Capture Users’ Temporal Context for Recommendation
 
 
 This repository contains the code, datasets, prompts, and experimental results associated with the paper:
